@@ -1,16 +1,61 @@
-# React + Vite
+# TechBoard React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application developed as part of my Front-End React learning path at Alura.
 
-Currently, two official plugins are available:
+This project marks my transition from vanilla JavaScript and DOM manipulation to React, exploring component-based development and declarative interfaces.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Project Goals
 
-## React Compiler
+Throughout this project, I will explore the fundamentals of React, including:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JSX.
+React components.
+Props.
+Form handling.
+Form Actions.
+useState.
+State management.
+Dynamic rendering.
+Event handling.
+Component composition.
 
-## Expanding the ESLint configuration
+## ⚛️ React & Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project uses React to build the interface through reusable components instead of directly manipulating the DOM with JavaScript.
+
+JSX will be used to describe the structure of the interface within JavaScript, introducing a declarative approach to UI development.
+
+## 📝 Forms & State
+
+The project will explore React's approach to handling forms and user interactions, including Form Actions and the useState Hook.
+
+These concepts will build upon the form handling, events, and state management techniques previously practiced with vanilla JavaScript.
+
+## 🛠️ Technologies
+React
+JavaScript
+JSX
+Vite
+HTML5
+CSS3
+ESLint
+
+## 📚 Learning Progression
+
+This project represents the next step in my learning journey:
+
+HTML + CSS
+    ↓
+JavaScript
+    ↓
+DOM Manipulation
+    ↓
+CRUD + LocalStorage
+    ↓
+HTTP Requests + APIs
+    ↓
+Node.js + NPM
+    ↓
+React
+
+The goal of this project is to begin applying React concepts and understand how component-based and declarative development differs from direct DOM manipulation with vanilla JavaScript.
