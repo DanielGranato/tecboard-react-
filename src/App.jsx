@@ -4,10 +4,10 @@ function App() {
   return (
     <main>
       <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo" />
+        <img src="/logo.png" alt="Logo Tecboard" />
       </header>
       <section>
-        <image src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo" />
+        <img src="/banner.png" alt="Banner Tecboard" />
       </section>
     </main>
   )
