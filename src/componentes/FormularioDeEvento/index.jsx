@@ -2,11 +2,12 @@ import CampoDeEntrada from '../CampoDeEntrada';
 import CampoDeFormulario from '../CampoDeFormulario';
 import Label from '../Label';
 import TituloFormulario from '../TituloFormulario';
+import './formulario-de-evento.css';
 
 function FormularioDeEvento() {
 
   return (
-    <form className="event-form">
+    <form className="form-evento">
       <TituloFormulario>Preencha para criar um evento:</TituloFormulario>
       <CampoDeFormulario>
         <Label htmlFor="nome">Nome</Label>

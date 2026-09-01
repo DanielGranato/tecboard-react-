@@ -1,0 +1,9 @@
+.form-evento {
+    width: 384px;
+    max-width: 90%;
+    padding: 32px 28px;
+    background: #212121;
+    border-radius: 16px;
+    margin: 64px auto;
+  }
+

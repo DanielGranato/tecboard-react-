@@ -1,6 +1,7 @@
+import './campo-de-formulario.css';
 function CampoDeFormulario({children}) {
     return (
-      <fieldset>
+      <fieldset className="campo-form">
         {children}
       </fieldset>
     )
