@@ -10,8 +10,8 @@ function App() {
       </header>
       <section>
         <img src="./banner.png" alt="Banner Tecboard" />
-        <FormularioDeEvento />
       </section>
+      <FormularioDeEvento />
     </main>
   )
 }
