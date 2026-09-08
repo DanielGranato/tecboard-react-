@@ -6,7 +6,7 @@ import './formulario-de-evento.css';
 import Botao from '../botao';
 import ListaSuspensa from '../ListaSuspensa';
 
-function FormularioDeEvento( {temas} ) {
+function FormularioDeEvento( {temas, aoSubmeter} ) {
 
   function aoFormSubmetido(formData) {
     console.log('opa, tá na hora de criar um novo evento', formData)

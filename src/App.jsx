@@ -43,13 +43,18 @@ function App() {
     },
   ]
 
+
+  function adicionarEvento(evento) {
+    eventos.push(evento);
+  }
+
   return (
     <main>
       <header>
         <img src="./logo.png" alt="Logo Tecboard" />
       </header>
       <Banner />
-      <FormularioDeEvento temas={temas} />
+      <FormularioDeEvento temas={temas} aoSubmeter={adicionarEvento} />
       {temas.map(function(tema) {
         return (
           <section key={tema.id}>
