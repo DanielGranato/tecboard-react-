@@ -6,7 +6,7 @@ import './formulario-de-evento.css';
 import Botao from '../botao';
 import ListaSuspensa from '../ListaSuspensa';
 
-function FormularioDeEvento() {
+function FormularioDeEvento( {temas} ) {
 
   return (
     <form className="form-evento">
@@ -22,7 +22,7 @@ function FormularioDeEvento() {
       </CampoDeFormulario>
       <CampoDeFormulario>
         <Label htmlFor="tema">Tema do evento</Label>
-        <ListaSuspensa />
+        <ListaSuspensa id="tema" name="tema" itens={temas} />
       </CampoDeFormulario>
       </div>
       <div className="acoes">
