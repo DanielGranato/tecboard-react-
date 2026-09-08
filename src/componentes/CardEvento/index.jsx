@@ -1,4 +1,4 @@
-
+import './card-evento.css'
 
 export function CardEvento({ evento }) {
     return (
