@@ -3,7 +3,7 @@ import FormularioDeEvento from './componentes/FormularioDeEvento';
 import { Tema } from './componentes/Tema';
 import { Banner } from './componentes/Banner';
 import { CardEvento } from './componentes/CardEvento';
-
+import { useState } from 'react';
 
 function App() {
 
@@ -34,14 +34,14 @@ function App() {
     },
   ]
 
-  const eventos = [
+  const [eventos, setEventos] = useState([
     {
       capa: './eventos/imagem_1.png',
       tema: temas[0],
       data: new Date(),
-      titulo: 'Mulheres no Front',
-    },
-  ]
+      titulo: 'Mulheres no Front'
+    }
+  ])
 
 
   function adicionarEvento(evento) {
