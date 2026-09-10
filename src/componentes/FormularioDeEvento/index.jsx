@@ -27,7 +27,7 @@ function FormularioDeEvento( {temas, aoSubmeter} ) {
       <div className="campos">
       <CampoDeFormulario>
         <Label htmlFor="nome">Qual o nome do evento?</Label>
-        <CampoDeEntrada type="text" id="nome" name="nome" />
+        <CampoDeEntrada type="text" id="nome" name="nomeEvento" />
       </CampoDeFormulario>
       <CampoDeFormulario>
         <Label htmlFor="capa">Qual o endereço da imagem de capa?</Label>
@@ -35,7 +35,7 @@ function FormularioDeEvento( {temas, aoSubmeter} ) {
       </CampoDeFormulario>
       <CampoDeFormulario>
         <Label htmlFor="data">Data do evento</Label>
-        <CampoDeEntrada type="date" id="data" name="data" />
+        <CampoDeEntrada type="date" id="data" name="dataEvento" />
       </CampoDeFormulario>
       <CampoDeFormulario>
         <Label htmlFor="tema">Tema do evento</Label>

@@ -45,7 +45,7 @@ function App() {
 
 
   function adicionarEvento(evento) {
-    eventos.push(evento);
+    setEventos([...eventos, evento])
   }
 
   return (
