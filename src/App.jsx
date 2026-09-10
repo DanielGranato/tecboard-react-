@@ -55,11 +55,13 @@ function App() {
       </header>
       <Banner />
       <FormularioDeEvento temas={temas} aoSubmeter={adicionarEvento} />
-      {temas.map(function(tema) {
+      {temas.map(function (tema) {
         return (
           <section key={tema.id}>
             <Tema tema={tema} />
-            <CardEvento evento={eventos[0]} />
+            {eventos.map(function (evento, indice) {
+              return <CardEvento evento={evento} key={indice} />
+            })}
           </section>
         )
       })}
