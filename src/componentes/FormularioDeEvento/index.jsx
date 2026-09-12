@@ -3,7 +3,7 @@ import CampoDeFormulario from '../CampoDeFormulario';
 import Label from '../Label';
 import TituloFormulario from '../TituloFormulario';
 import './formulario-de-evento.css';
-import Botao from '../botao';
+import Botao from '../Botao';
 import ListaSuspensa from '../ListaSuspensa';
 
 function FormularioDeEvento( {temas, aoSubmeter} ) {
